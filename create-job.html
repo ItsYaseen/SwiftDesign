@@ -1,0 +1,332 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> 
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <meta name="generator" content="">
+  <meta name="theme-color" content="#563d7c">
+  <title>Swift - Recruite | Create Job</title>
+
+  <!-- favicons -->
+  <link rel="icon" href="img/favicon/favicon-32x32.png" sizes="32x32" type="image/png">
+  <link rel="icon" href="img/favicon/favicon-16x16.png" sizes="16x16" type="image/png">
+  <link rel="icon" href="img/favicon/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap" rel="stylesheet">
+  <!-- CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="fonts/remixicon.css">
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/mobile-style.css"> 
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+</head>
+
+<body>
+  <section id="main-right">
+    <div class="container-fluid">
+      <div class="row justify-content-center align-items-center">
+        <div class="swift-detials text-center d-sm-block d-md-block sw-d-logo" style="background: none;">
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="card-logo pb-sm-4">
+                    <img src="images/swift-mb-logo.png" class="img-fluid" alt="">
+                  </div>
+                </div>
+              </div>
+          </div>
+       </div>
+      <div class="row justify-content-center align-items-center">
+        <!-- Swift Details -->
+        <div class="col-md-4 col-lg-4 p-0 swift-d-none swift-left-column">
+          <div class="swift-detials text-center d-none d-lg-block " style="height:100vh">
+                <div class="swift-logo">
+                  <img src="images/swift-logo.png" class="img-fluid" alt="">
+                </div>
+             
+                <div class="swift-Illustration  swfit-base-font text-white mt-rm-0 p-rm0-5 py-xl-4 mt-xl-5">
+                  <img src="images/swift-create-job.png" class="img-fluid" alt="">
+            
+                  <h1 class="f-size-24 fw-bold">Create a Job</h1>
+                  <p>Swift Recruit is here to help you hire the best human capital at a reasonable price but at a rapid pace!</p>
+                </div>
+          </div>
+          
+        </div>
+
+        <!-- Swift Form -->
+        <div class="offset-md-1 col-md-7 p-0 swift-right-column">
+          <div class="swift-form-job">
+            <!-- Progress Bar -->
+            <div class="swift-bar m-auto mb-swift">
+              <div class="progress" style="height: 10px;">
+                <div class="progress-bar pbar-color" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+            <!-- End progress bar here -->
+            <div class="card jc-radius border-0 mb-3">
+              <div class="row g-0">
+                <div class="col-md-12">
+                  <div class="card-body notification-bar">
+                    <h5 class="job-card-title">Job post will be in <span class="black fw-bold">English</span> in <span class="black fw-bold"> United States <i class="gray fa fa-pencil pe-auto" id="editJobIcon" data-bs-toggle="modal" data-bs-target="#exampleModal"></i></span></h5>
+                    <p class="card-text"></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--Edit Job Model -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header no-border">
+                    <img src="images/edit-job-icon.png" class="img-fluid" alt="">
+                    <!--  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
+                  </div>
+                  <div class="modal-body px-4">
+                    <h1 class="swfit-base-font f-weight-600 f-size-18">Edit job basics</h1>
+                    <p class="gray pad-0 marg-0 swfit-base-font">Please enter more details.</p>
+                    <form id="edit-job">
+                    <div class="swft-form-input">
+                      <label for="country" class="form-label f-weight-700 f-size-14">Country<span class="asterisk">*</span></label>
+                      <select class="marg-b-10 form-select form-control" id="country" name="country">
+                        <option value="usa" selected disabled hidden>US</option>
+                        <option value="uk">UK</option>
+                        <option value="canada">CA</option>
+                      </select>
+                    </div>
+                    <div class="swft-form-input">
+                      <label for="city" class="form-label f-weight-700 f-size-14">City<span class="asterisk">*</span></label>
+                      <select class="marg-b-10 form-select form-control" id="city" name="city">
+                        <option value="Add City" selected disabled hidden>Add City</option>
+                        <option value="AL">Alabama</option>
+                        <option value="AK">Alaska</option>
+                        <option value="AZ">Arizona</option>
+                        <option value="AR">Arkansas</option>
+                      </select>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-6">
+                      <label for="firstName" class="form-label f-weight-700 f-size-14">State<span class="asterisk">*</span></label>
+                      <select class="marg-b-10 form-select form-control" id="state" name="state">
+                        <option value="Add City" selected disabled hidden>Add State</option>
+                        <option value="AL">Alabama</option>
+                          <option value="AK">Alaska</option>
+                          <option value="AZ">Arizona</option>
+                          <option value="AR">Arkansas</option>
+                          <option value="CA">California</option>
+                          <option value="CO">Colorado</option>
+                          <option value="CT">Connecticut</option>
+                      </select>
+                      </div>
+                      <div class="col-md-6">
+                        <label for="lastName" class="form-label f-weight-700 f-size-14">Zip Postal<span class="asterisk">*</span></label>
+                        <input id="Postal" type="text" class="marg-b-10 form-control" name="postal" placeholder="44000" value="">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="modal-footer no-border d-md-flex justify-content-between mx-2">
+                    <button type="button" class="border-swift btn-swift-text btn btn-light swift-shadow mod-b-d-size " type="button" data-bs-dismiss="modal">Cancel</button>
+                    <button id="editBtn" type="button" class="border-swift btn-swift-text btn btn-primary swift-shadow theme-color mod-b-d-size ">Confirm</button>
+                  </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+            <!-- Ends here-->
+            <!--Add More Job Job Model -->
+            <div class="modal fade" id="addMoreJobTitleModel" tabindex="-1" aria-labelledby="addMoreJobTitleModelLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header no-border">
+                    <img src="images/edit-job-icon.png" class="img-fluid" alt="">
+                    <!--  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
+                  </div>
+                  <div class="modal-body px-4">
+                    <h1 class="swfit-base-font f-weight-600 f-size-18">Create Job Title</h1>
+                    <p class="gray pb-4 marg-0 swfit-base-font">Please enter more details.</p>
+                    <form id="edit-job">
+                    <div class="swft-form-input">
+                      <label for="industries" class="form-label f-weight-700 f-size-14">Industries<span class="asterisk">*</span></label>
+                      <select class="marg-b-10 form-select form-control" id="industries" name="industries">
+                        <option value="" selected disabled hidden>Select</option>
+                        <option value="IT" selected disabled hidden>Information Technology</option>
+                        <option value="software-development" selected disabled hidden>Software Development</option>
+                      </select>
+                    </div>
+                    <div class="swft-form-input">
+                      <label for="questionSets" class="form-label f-weight-700 f-size-14">Question Sets<span class="asterisk">*</span></label>
+                      <select class="marg-b-10 form-select form-control" id="questionSets" name="questionSets">
+                        <option value="" selected disabled hidden>Select</option>
+                        <option value="simple">Simple</option>
+                        <option value="hard">Hard</option>
+                        <option value="expert">Expert</option>
+                      </select>
+                    </div>
+                    <div class="swft-form-input">
+                      <label for="jobTitle" class="form-label f-weight-700 f-size-14">Job Title<span class="asterisk">*</span></label>
+                      <select class="marg-b-10 form-select form-control" id="jobTitle" name="jobTitle">
+                        <option value="" selected disabled hidden>Select</option>
+                        <option value="productOwner">Product Owner</option>
+                        <option value="supervisor">Supervisor</option>
+                        <option value="manager">Manager</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="modal-footer no-border d-md-flex justify-content-between mx-2">
+                    <button id="cancelBtn" type="button" class="border-swift btn-swift-text btn btn-light swift-shadow mod-b-d-size " type="button" data-bs-dismiss="modal">Cancel</button>
+                    <button id="saveBtn" type="button" class="border-swift btn-swift-text btn btn-primary swift-shadow theme-color mod-b-d-size ">Save</button>
+                  </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+            <!-- Ends here-->
+            <!-- Job Card With Image -->
+            <div class="card h-swift-130 jc-radius border-0 mb-3">
+              <div class="row g-0">
+                <div class="col-md-12">
+                  <div class="job-card-img jc-pad">
+                    <div class="d-flex align-items-center justify-content-between">
+                      <h5 class="card-title jc-title mb-0">Add Job Basics</h5>
+                      <img src="images/swift-add-job-basics.png" alt="Image" class="img-fluid">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card border-0 jc-radius mb-3">
+              <div class="row g-0">
+                <div class="col-md-12">
+                  <div class="card-body jc-t-pad">
+                    <form id="create-job" action="#" class="pad-24-b">
+                    <label for="selectIndustry" class="form-label f-size-14 fw-bold">Select Industry<span class="asterisk">*</span></label>
+                    <select class="marg-b-10 form-select form-control swift-shadow h-swift-44" id="industry" name="industry">
+                      <option value="select" selected disabled hidden>Select</option>
+                      <option value="construction">Construction</option>
+                      <option value="tecnology">Tecnology</option>
+                    </select>
+                    <label for="jobTitle" class="form-label f-size-14 fw-bold">Job Title<span class="asterisk">*</span></label>
+                    <div class="row justify-content-between">
+                      <div class="col-md-8">
+                        <input type="text" class="marg-b-10 form-control swift-shadow h-swift-44" name="jobTitle" placeholder="Select" value="">
+                      </div>
+                      <div class="col-md-4">
+                        <button id="addMoreJobBtn" class="btn-swift-text btn btn-outline-light swift-shadow btn-revert w-100 mb-2" type="button"  data-bs-toggle="modal" data-bs-target="#addMoreJobTitleModel"><i class="bi bi-plus-circle"></i><span class="m-1"> Add More</span></button>
+                      </div>
+                    </div>
+                    <label for="numberOfPeopleHireForThisJob" class="form-label f-size-14 fw-bold">Number of people hire for this job<span class="asterisk">*</span></label>
+                    <input type="text" class="marg-b-10 form-control swift-shadow h-swift-44" name="peopleHired" placeholder="Select" value="">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card border-0 jc-radius justify-content-center jc-t-pad h-swift-92 mb-3">
+              <div class="row">
+                <div class="col-md-12 button-right">
+                  <div class="d-md-flex justify-content-between">
+                    <a href="add-job-details.html"> <button id="createJobBtn" class="border-swift btn-swift-text btn btn-primary swift-shadow theme-color b-d-size text-right " type="button"> <span>Continue <i class="bi bi-arrow-right ml-1"></i></span></button></a>
+                  </form>
+                  </div>
+                </div>
+               </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Plugin's -->
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/swiper-bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
+  <!-- Custom JavaScript -->
+  <script>
+    $(document).ready(function() {
+      $('#editBtn').click(function() {
+        $('#edit-job').validate({
+          errorElement: 'div',
+          errorClass: 'is-invalid',
+          errorPlacement: function(error, element) {
+            error.addClass('invalid-feedback');
+            error.insertAfter(element);
+          },
+          highlight: function(element, errorClass, validClass) {
+            $(element).addClass(errorClass).removeClass(validClass);
+          },
+          unhighlight: function(element, errorClass, validClass) {
+            $(element).removeClass(errorClass).addClass(validClass);
+          },
+          rules: {
+            country: 'required',
+            city: 'required',
+            state: 'required',
+            postal: 'required',
+          },
+          messages: {
+            country: 'Please select a country',
+            city: 'Please select a city',
+            state: 'Please select a state',
+            postal: 'Please enter your zip postal',
+          },
+          submitHandler: function(form) {
+            // Perform your form submission here
+            form.submit();
+          }
+        }).form();
+      });
+    });
+  </script>
+  <script>
+  $(document).ready(function() {
+    $('#createJobBtn').click(function() {
+        $('#create-job').validate({
+          errorElement: 'div',
+          errorClass: 'is-invalid',
+          errorPlacement: function(error, element) {
+            error.addClass('invalid-feedback');
+            error.insertAfter(element);
+          },
+          highlight: function(element, errorClass, validClass) {
+            $(element).addClass(errorClass).removeClass(validClass);
+          },
+          unhighlight: function(element, errorClass, validClass) {
+            $(element).removeClass(errorClass).addClass(validClass);
+          },
+            rules: {
+            industry: 'required',
+            jobTitle: 'required',
+            peopleHired: 'required',
+          },
+          messages: {
+            industry: 'Please select a Industry',
+            jobTitle: 'Please enter your job title',
+            peopleHired: 'Please enter number of people hire for this job',
+            
+          },
+          submitHandler: function(form) {
+            // Perform your form submission here
+
+          }
+
+        }).form();
+      });
+  });
+  </script>
+</body>
+</html>

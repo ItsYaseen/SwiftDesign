@@ -1,0 +1,36 @@
+.marg-r-8{
+    margin-right: 8px;
+}
+.marg-t-36px{
+    margin-top: 36px;
+}
+.or-separator{
+    font-size: 10px;
+}
+.or-separator::before,
+.or-separator::after {
+    text-align: center;
+    display: inline-block;
+    content: "";
+    border-top: 1px solid #DDDDDD;
+    width: 142px;
+    margin: 0 1rem;
+}
+
+
+/*for pop-up*/
+
+.max-width-1440{
+    max-width: 1200px !important;
+}
+.bg-popup{
+    background: url(../images/pop-up-bg.png);
+}
+.justify-content-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.width-284{
+    width: 284px;
+}

@@ -1,0 +1,149 @@
+/*
+*******************************
+0. Mobile Media Queries (Max-width)
+*******************************
+*/
+/* `sm` applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+}
+
+/* `md` applies to small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+ 
+  .min-h-160 {
+    min-height: auto;
+  }
+  .swift-bar {
+    width: 20.5rem!important;
+    max-width: 21.125rem!important;
+  }
+  .mb-swift {
+    margin-bottom: 1rem!important;
+  }
+  .h-swift-130 {
+    max-height: 6.25rem!important;
+  }
+  .job-card-img img {
+    max-height: 5.9375rem!important;
+  }
+  .job-card-title {
+    font-size: 0.875rem;
+    line-height: 1.0275rem;
+  }
+
+}
+
+/* `lg` applies to medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+}
+
+/* `xl` applies to large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+}
+
+/* `xxl` applies to x-large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {
+}
+
+
+/*  SWift Recruit Screens Media Queries*/
+
+/* Media query targeting large devices */
+@media (min-width: 1200px) {
+  /* Apply custom class to the desired elements */
+  .mt-rm-0 {
+    margin-top: 0rem!important;
+  }
+  
+}
+
+/* Styles for screens between 1366px and 1440px */
+@media(min-width: 1366px)  and (max-width: 1439px)  {
+  /* CSS rules for screens with 1366px to 1440px width */
+
+  .swift-form-job {
+  max-width: 34.375rem;
+}
+
+.swift-Illustration img {
+  padding-bottom: 2.5rem!important;
+}
+
+.job-card-img img {
+  height: 5.625rem!important;
+}
+
+.h-swift-130 {
+  height: 5.9375rem!important;
+}
+
+.jc-t-pad {
+  padding: 0.75rem;
+}
+
+.mb-swift {
+  margin-bottom: 1rem!important;
+}
+
+ html {
+    font-size: 85%; /* Adjust the font size percentage as per your requirements */
+  }
+}
+
+/* Styles for screens between 1366px and 1440px */
+@media(min-width: 1440px) {
+  /* CSS rules for screens with 1366px to 1440px width */
+  .swift-Illustration img {
+    padding-bottom: 4rem!important;
+    max-height: 17.925rem;
+  }
+
+  .swift-detials {
+    max-width: 31.25rem;
+  }
+
+}
+
+/* Styles for screens  400px */
+@media(max-width: 400px) {
+  /* CSS rules for screens with 400px */
+  .swift-form,
+    .swift-form-job {
+      padding: 1rem;
+    }
+}
+
+/*
+*******************************
+1. Mobile Media Queries (Min-width)
+*******************************
+*/
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+}
+
+/*
+*******************************
+2. Custom Media Queries
+*******************************
+*/
+
+@media (min-width: 1920px) {
+}

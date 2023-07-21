@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <meta name="generator" content="">
+  <meta name="theme-color" content="#563d7c">
+  <title>Swift - Recruite | Sign In</title>
+
+  <!-- favicons -->
+  <link rel="icon" href="img/favicon/favicon-32x32.png" sizes="32x32" type="image/png">
+  <link rel="icon" href="img/favicon/favicon-16x16.png" sizes="16x16" type="image/png">
+  <link rel="icon" href="img/favicon/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+  <!-- CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="fonts/remixicon.css">
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/mobile-style.css">
+</head>
+
+<body>
+  <section class="login-in">
+    <div class="container-fluid">
+       <div class="row justify-content-center align-items-center">
+        <div class="swift-detials text-center d-sm-block d-md-block sw-d-logo" style="background: none;">
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="card-logo pb-sm-4">
+                    <img src="images/swift-mb-logo.png" class="img-fluid" alt="">
+                  </div>
+                </div>
+              </div>
+          </div>
+       </div>
+      <div class="row justify-content-center align-items-center">
+        <!-- Swift Details -->
+        <div class="col-md-4 col-lg-4 p-0 swift-d-none ">
+          <div class="swift-detials text-center d-none d-lg-block " style="height:100vh">
+                <div class="swift-logo">
+                  <img src="images/swift-logo.png" class="img-fluid" alt="">
+                </div>
+             
+                <div class="swift-Illustration  swfit-base-font text-white mt-rm-0 p-rm0-5 py-xl-4 mt-xl-5">
+                  <img src="images/swift-Illustration.png" class="img-fluid" alt="">
+            
+                  <h1 class="f-size-24 fw-bold">Why Choose Swift Recruit?</h1>
+                  <p>We are the quickest and highest tech hiring platform available in today's remote and hybrid world.</p>
+                </div>
+          </div>
+          
+        </div>
+
+
+        <!-- Swift Form -->
+        <div class="offset-md-2 col-md-6 p-0">
+          <div class="swift-form">
+            <h1 class="swfit-base-font f-weight-700 f-size-30">Log In</h1>
+            <p class="gray pad-0 marg-0 swfit-base-font">Welcome back! Please enter your details</p>
+            <form id="sign-in" action="#" class="pad-20-b">
+              <label for="userName" class="form-label f-size-14">User Name</label>
+              <input id="userName" type="text" class="marg-b-10 form-control" name="userName" placeholder="xyz@clientpoint.com"
+                value="">
+              <div class="password-group" style="position: relative;">
+                <label for="password" class="form-label f-size-14">Password<span class="asterisk">*</span></label>
+                <input id="password" type="password" class="marg-b-10 form-control" name="password"
+                  placeholder="Enter Password" value="">
+                <i class="gray ri-eye-line" id="toggle-password"></i>
+              </div>
+              <div class="form-group py-3">
+                <div class="row align-items-center justify-content-end">
+                  <div class="col-md-6 f-col-50">
+                    <div class="form-check-np">
+                      <input class="form-check-input" type="checkbox" id="rememberMe">
+                      <label class="form-check-label" for="rememberMe">
+                        Remember me
+                      </label>
+                    </div>
+                  </div>
+                  <div class="col-md-6 f-col-50">
+                    <a href="#" class="forgot-password-link forgot f-size-14 text-right">Forgot password?</a>
+                  </div>
+                </div>
+              </div>
+              <input type="submit"
+                class="border-swift marg-tb-10 pad-10-tb btn btn-primary btn-full-width btn-swift no-border"
+                value="Sign In">
+              <p class="gray text-center signin-liner">Don't have an account yet? <a class="sign_in_here"
+                  href="sign-up-admin.html">Sign up here</a></p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Plugin's -->
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/swiper-bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+  <script type="text/javascript">
+    $(document).ready(function() {
+      // Show/Hide Password
+      $('#toggle-password').click(function() {
+       
+        $(this).toggleClass("ri-eye-line ri-eye-off-line");
+           var passwordInput = $('#password');
+           var icon = $(this).find('i');
+
+        if (passwordInput.attr('type') === 'password') {
+          passwordInput.attr('type', 'text');
+          
+        } else {
+          passwordInput.attr('type', 'password');
+          
+        }
+      });
+
+    });
+
+  </script>
+  <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
+  <script>
+  $(document).ready(function() {
+    $('#sign-in').validate({
+      rules: {
+        userName: 'required',
+        password: 'required'
+      },
+      messages: {
+        userName: 'Please enter username',
+        password: 'Please enter your password'
+      },
+      errorElement: 'div',
+      errorClass: 'invalid-feedback',
+      errorPlacement: function(error, element) {
+        error.insertAfter(element);
+       
+      },
+      highlight: function(element, errorClass, validClass) {
+        $(element).addClass('is-invalid').removeClass(validClass);
+        $(element).siblings('#toggle-password').hide();
+      },
+      unhighlight: function(element, errorClass, validClass) {
+        $(element).removeClass('is-invalid').addClass(validClass);
+        if ($(element).val() !== '') {
+          $(element).siblings('#toggle-password').show();
+        }
+      },
+      submitHandler: function(form) {
+        // Handle form submission
+        form.submit();
+      }
+    });
+  });
+  </script>
+</body>
+
+</html>
